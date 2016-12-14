@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31246FC21E00EF7B005448AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31246FC11E00EF7B005448AB /* main.m */; };
+		31246FC51E00EF7B005448AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31246FC41E00EF7B005448AB /* AppDelegate.m */; };
+		31246FC81E00EF7B005448AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31246FC71E00EF7B005448AB /* ViewController.m */; };
+		31246FCB1E00EF7B005448AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31246FC91E00EF7B005448AB /* Main.storyboard */; };
+		31246FCD1E00EF7B005448AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31246FCC1E00EF7B005448AB /* Assets.xcassets */; };
+		31246FD01E00EF7B005448AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31246FCE1E00EF7B005448AB /* LaunchScreen.storyboard */; };
+		31246FDB1E00EF7B005448AB /* TravelokaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31246FDA1E00EF7B005448AB /* TravelokaAppTests.m */; };
+		31246FE61E00EF7B005448AB /* TravelokaAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31246FE51E00EF7B005448AB /* TravelokaAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31246FD71E00EF7B005448AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31246FB51E00EF7B005448AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31246FBC1E00EF7B005448AB;
+			remoteInfo = TravelokaApp;
+		};
+		31246FE21E00EF7B005448AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31246FB51E00EF7B005448AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31246FBC1E00EF7B005448AB;
+			remoteInfo = TravelokaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31246FBD1E00EF7B005448AB /* TravelokaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelokaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31246FC11E00EF7B005448AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31246FC31E00EF7B005448AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31246FC41E00EF7B005448AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31246FC61E00EF7B005448AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31246FC71E00EF7B005448AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31246FCA1E00EF7B005448AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31246FCC1E00EF7B005448AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31246FCF1E00EF7B005448AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31246FD11E00EF7B005448AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31246FD61E00EF7B005448AB /* TravelokaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelokaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31246FDA1E00EF7B005448AB /* TravelokaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelokaAppTests.m; sourceTree = "<group>"; };
+		31246FDC1E00EF7B005448AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31246FE11E00EF7B005448AB /* TravelokaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelokaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31246FE51E00EF7B005448AB /* TravelokaAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelokaAppUITests.m; sourceTree = "<group>"; };
+		31246FE71E00EF7B005448AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31246FBA1E00EF7B005448AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31246FD31E00EF7B005448AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31246FDE1E00EF7B005448AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31246FB41E00EF7B005448AB = {
+			isa = PBXGroup;
+			children = (
+				31246FBF1E00EF7B005448AB /* TravelokaApp */,
+				31246FD91E00EF7B005448AB /* TravelokaAppTests */,
+				31246FE41E00EF7B005448AB /* TravelokaAppUITests */,
+				31246FBE1E00EF7B005448AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31246FBE1E00EF7B005448AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31246FBD1E00EF7B005448AB /* TravelokaApp.app */,
+				31246FD61E00EF7B005448AB /* TravelokaAppTests.xctest */,
+				31246FE11E00EF7B005448AB /* TravelokaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31246FBF1E00EF7B005448AB /* TravelokaApp */ = {
+			isa = PBXGroup;
+			children = (
+				31246FC31E00EF7B005448AB /* AppDelegate.h */,
+				31246FC41E00EF7B005448AB /* AppDelegate.m */,
+				31246FC61E00EF7B005448AB /* ViewController.h */,
+				31246FC71E00EF7B005448AB /* ViewController.m */,
+				31246FC91E00EF7B005448AB /* Main.storyboard */,
+				31246FCC1E00EF7B005448AB /* Assets.xcassets */,
+				31246FCE1E00EF7B005448AB /* LaunchScreen.storyboard */,
+				31246FD11E00EF7B005448AB /* Info.plist */,
+				31246FC01E00EF7B005448AB /* Supporting Files */,
+			);
+			path = TravelokaApp;
+			sourceTree = "<group>";
+		};
+		31246FC01E00EF7B005448AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31246FC11E00EF7B005448AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31246FD91E00EF7B005448AB /* TravelokaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				31246FDA1E00EF7B005448AB /* TravelokaAppTests.m */,
+				31246FDC1E00EF7B005448AB /* Info.plist */,
+			);
+			path = TravelokaAppTests;
+			sourceTree = "<group>";
+		};
+		31246FE41E00EF7B005448AB /* TravelokaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31246FE51E00EF7B005448AB /* TravelokaAppUITests.m */,
+				31246FE71E00EF7B005448AB /* Info.plist */,
+			);
+			path = TravelokaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31246FBC1E00EF7B005448AB /* TravelokaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31246FEA1E00EF7B005448AB /* Build configuration list for PBXNativeTarget "TravelokaApp" */;
+			buildPhases = (
+				31246FB91E00EF7B005448AB /* Sources */,
+				31246FBA1E00EF7B005448AB /* Frameworks */,
+				31246FBB1E00EF7B005448AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelokaApp;
+			productName = TravelokaApp;
+			productReference = 31246FBD1E00EF7B005448AB /* TravelokaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31246FD51E00EF7B005448AB /* TravelokaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31246FED1E00EF7B005448AB /* Build configuration list for PBXNativeTarget "TravelokaAppTests" */;
+			buildPhases = (
+				31246FD21E00EF7B005448AB /* Sources */,
+				31246FD31E00EF7B005448AB /* Frameworks */,
+				31246FD41E00EF7B005448AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31246FD81E00EF7B005448AB /* PBXTargetDependency */,
+			);
+			name = TravelokaAppTests;
+			productName = TravelokaAppTests;
+			productReference = 31246FD61E00EF7B005448AB /* TravelokaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31246FE01E00EF7B005448AB /* TravelokaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31246FF01E00EF7B005448AB /* Build configuration list for PBXNativeTarget "TravelokaAppUITests" */;
+			buildPhases = (
+				31246FDD1E00EF7B005448AB /* Sources */,
+				31246FDE1E00EF7B005448AB /* Frameworks */,
+				31246FDF1E00EF7B005448AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31246FE31E00EF7B005448AB /* PBXTargetDependency */,
+			);
+			name = TravelokaAppUITests;
+			productName = TravelokaAppUITests;
+			productReference = 31246FE11E00EF7B005448AB /* TravelokaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31246FB51E00EF7B005448AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Aloysius Michael Tansy";
+				TargetAttributes = {
+					31246FBC1E00EF7B005448AB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					31246FD51E00EF7B005448AB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31246FBC1E00EF7B005448AB;
+					};
+					31246FE01E00EF7B005448AB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31246FBC1E00EF7B005448AB;
+					};
+				};
+			};
+			buildConfigurationList = 31246FB81E00EF7B005448AB /* Build configuration list for PBXProject "TravelokaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31246FB41E00EF7B005448AB;
+			productRefGroup = 31246FBE1E00EF7B005448AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31246FBC1E00EF7B005448AB /* TravelokaApp */,
+				31246FD51E00EF7B005448AB /* TravelokaAppTests */,
+				31246FE01E00EF7B005448AB /* TravelokaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31246FBB1E00EF7B005448AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31246FD01E00EF7B005448AB /* LaunchScreen.storyboard in Resources */,
+				31246FCD1E00EF7B005448AB /* Assets.xcassets in Resources */,
+				31246FCB1E00EF7B005448AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31246FD41E00EF7B005448AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31246FDF1E00EF7B005448AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31246FB91E00EF7B005448AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31246FC81E00EF7B005448AB /* ViewController.m in Sources */,
+				31246FC51E00EF7B005448AB /* AppDelegate.m in Sources */,
+				31246FC21E00EF7B005448AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31246FD21E00EF7B005448AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31246FDB1E00EF7B005448AB /* TravelokaAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31246FDD1E00EF7B005448AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31246FE61E00EF7B005448AB /* TravelokaAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31246FD81E00EF7B005448AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31246FBC1E00EF7B005448AB /* TravelokaApp */;
+			targetProxy = 31246FD71E00EF7B005448AB /* PBXContainerItemProxy */;
+		};
+		31246FE31E00EF7B005448AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31246FBC1E00EF7B005448AB /* TravelokaApp */;
+			targetProxy = 31246FE21E00EF7B005448AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31246FC91E00EF7B005448AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31246FCA1E00EF7B005448AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31246FCE1E00EF7B005448AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31246FCF1E00EF7B005448AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31246FE81E00EF7B005448AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31246FE91E00EF7B005448AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31246FEB1E00EF7B005448AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TravelokaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tansy.TravelokaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31246FEC1E00EF7B005448AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TravelokaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tansy.TravelokaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31246FEE1E00EF7B005448AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TravelokaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tansy.TravelokaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelokaApp.app/TravelokaApp";
+			};
+			name = Debug;
+		};
+		31246FEF1E00EF7B005448AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TravelokaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tansy.TravelokaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelokaApp.app/TravelokaApp";
+			};
+			name = Release;
+		};
+		31246FF11E00EF7B005448AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TravelokaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tansy.TravelokaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TravelokaApp;
+			};
+			name = Debug;
+		};
+		31246FF21E00EF7B005448AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TravelokaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tansy.TravelokaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TravelokaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31246FB81E00EF7B005448AB /* Build configuration list for PBXProject "TravelokaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31246FE81E00EF7B005448AB /* Debug */,
+				31246FE91E00EF7B005448AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31246FEA1E00EF7B005448AB /* Build configuration list for PBXNativeTarget "TravelokaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31246FEB1E00EF7B005448AB /* Debug */,
+				31246FEC1E00EF7B005448AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31246FED1E00EF7B005448AB /* Build configuration list for PBXNativeTarget "TravelokaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31246FEE1E00EF7B005448AB /* Debug */,
+				31246FEF1E00EF7B005448AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31246FF01E00EF7B005448AB /* Build configuration list for PBXNativeTarget "TravelokaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31246FF11E00EF7B005448AB /* Debug */,
+				31246FF21E00EF7B005448AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31246FB51E00EF7B005448AB /* Project object */;
+}
