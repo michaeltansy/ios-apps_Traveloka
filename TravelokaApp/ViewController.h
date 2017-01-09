@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
-
+#import "CalendarViewController.h"
+@class MainView;
+@interface ViewController : UIViewController<messageDelegate>
+@property (strong,nonatomic) MainView *mainView;
+@property (strong,nonatomic) NSString *departureDateData;
 @end
 

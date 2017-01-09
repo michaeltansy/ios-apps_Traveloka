@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31087CFC1E0296F900EF0858 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31246FC71E00EF7B005448AB /* ViewController.m */; };
+		310CA36A1E07C4CB00F25F8C /* CustomCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 310CA3691E07C4CB00F25F8C /* CustomCollectionViewLayout.m */; };
 		31246FC21E00EF7B005448AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31246FC11E00EF7B005448AB /* main.m */; };
 		31246FC51E00EF7B005448AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31246FC41E00EF7B005448AB /* AppDelegate.m */; };
 		31246FC81E00EF7B005448AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31246FC71E00EF7B005448AB /* ViewController.m */; };
-		31246FCB1E00EF7B005448AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31246FC91E00EF7B005448AB /* Main.storyboard */; };
 		31246FCD1E00EF7B005448AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31246FCC1E00EF7B005448AB /* Assets.xcassets */; };
 		31246FD01E00EF7B005448AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31246FCE1E00EF7B005448AB /* LaunchScreen.storyboard */; };
 		31246FDB1E00EF7B005448AB /* TravelokaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31246FDA1E00EF7B005448AB /* TravelokaAppTests.m */; };
 		31246FE61E00EF7B005448AB /* TravelokaAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31246FE51E00EF7B005448AB /* TravelokaAppUITests.m */; };
+		31246FF61E00F1C5005448AB /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 31246FF41E00F1C5005448AB /* Util.m */; };
+		312BA95A1E03D1A400BB08BD /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 312BA9591E03D1A400BB08BD /* CalendarView.m */; };
+		319D5A9E1E00F81A00E8704F /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 319D5A9D1E00F81A00E8704F /* MainView.m */; };
+		319D5AA11E01062300E8704F /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 319D5AA01E01062300E8704F /* MenuView.m */; };
+		319D5AA41E012CD600E8704F /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 319D5AA31E012CD600E8704F /* ContentView.m */; };
+		31CC0F2E1E1185B1005CE999 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CC0F2D1E1185B1005CE999 /* CalendarViewController.m */; };
+		31D363181E0A41A1001ECEF6 /* MonthCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D363171E0A41A1001ECEF6 /* MonthCollectionViewCell.m */; };
+		31D3631B1E0A4633001ECEF6 /* CalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D3631A1E0A4633001ECEF6 /* CalendarCollectionViewCell.m */; };
+		7071536EB724F4077339900B /* libPods-TravelokaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C75B8821F7D4BBE35B1D4CC3 /* libPods-TravelokaApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		310CA3681E07C4CB00F25F8C /* CustomCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewLayout.h; sourceTree = "<group>"; };
+		310CA3691E07C4CB00F25F8C /* CustomCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewLayout.m; sourceTree = "<group>"; };
 		31246FBD1E00EF7B005448AB /* TravelokaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelokaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31246FC11E00EF7B005448AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		31246FC31E00EF7B005448AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		31246FC41E00EF7B005448AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		31246FC61E00EF7B005448AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		31246FC71E00EF7B005448AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		31246FCA1E00EF7B005448AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31246FCC1E00EF7B005448AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31246FCF1E00EF7B005448AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31246FD11E00EF7B005448AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +62,26 @@
 		31246FE11E00EF7B005448AB /* TravelokaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelokaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31246FE51E00EF7B005448AB /* TravelokaAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelokaAppUITests.m; sourceTree = "<group>"; };
 		31246FE71E00EF7B005448AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31246FF31E00EFDA005448AB /* TravelokaApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TravelokaApp-Prefix.pch"; sourceTree = "<group>"; };
+		31246FF41E00F1C5005448AB /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		31246FF51E00F1C5005448AB /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		312BA9581E03D1A400BB08BD /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
+		312BA9591E03D1A400BB08BD /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
+		319D5A9C1E00F81A00E8704F /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		319D5A9D1E00F81A00E8704F /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		319D5A9F1E01062300E8704F /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		319D5AA01E01062300E8704F /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		319D5AA21E012CD600E8704F /* ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
+		319D5AA31E012CD600E8704F /* ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
+		31CC0F2C1E1185B1005CE999 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		31CC0F2D1E1185B1005CE999 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		31D363161E0A41A1001ECEF6 /* MonthCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthCollectionViewCell.h; sourceTree = "<group>"; };
+		31D363171E0A41A1001ECEF6 /* MonthCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthCollectionViewCell.m; sourceTree = "<group>"; };
+		31D363191E0A4633001ECEF6 /* CalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCollectionViewCell.h; sourceTree = "<group>"; };
+		31D3631A1E0A4633001ECEF6 /* CalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarCollectionViewCell.m; sourceTree = "<group>"; };
+		48E94F5654B764850C525DF7 /* Pods-TravelokaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelokaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelokaApp/Pods-TravelokaApp.release.xcconfig"; sourceTree = "<group>"; };
+		C75B8821F7D4BBE35B1D4CC3 /* libPods-TravelokaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TravelokaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F320D9C03399A2515B900913 /* Pods-TravelokaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelokaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelokaApp/Pods-TravelokaApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7071536EB724F4077339900B /* libPods-TravelokaApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +110,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		097991A7F26D00536464E140 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F320D9C03399A2515B900913 /* Pods-TravelokaApp.debug.xcconfig */,
+				48E94F5654B764850C525DF7 /* Pods-TravelokaApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		31246FB41E00EF7B005448AB = {
 			isa = PBXGroup;
 			children = (
+				31246FF71E00F1CA005448AB /* Components */,
 				31246FBF1E00EF7B005448AB /* TravelokaApp */,
 				31246FD91E00EF7B005448AB /* TravelokaAppTests */,
 				31246FE41E00EF7B005448AB /* TravelokaAppUITests */,
 				31246FBE1E00EF7B005448AB /* Products */,
+				097991A7F26D00536464E140 /* Pods */,
+				5EFB90CB0B319A1EE42982FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +147,9 @@
 			children = (
 				31246FC31E00EF7B005448AB /* AppDelegate.h */,
 				31246FC41E00EF7B005448AB /* AppDelegate.m */,
-				31246FC61E00EF7B005448AB /* ViewController.h */,
-				31246FC71E00EF7B005448AB /* ViewController.m */,
-				31246FC91E00EF7B005448AB /* Main.storyboard */,
+				319D5A9A1E00F75E00E8704F /* ViewController */,
 				31246FCC1E00EF7B005448AB /* Assets.xcassets */,
+				319D5A9B1E00F79F00E8704F /* View */,
 				31246FCE1E00EF7B005448AB /* LaunchScreen.storyboard */,
 				31246FD11E00EF7B005448AB /* Info.plist */,
 				31246FC01E00EF7B005448AB /* Supporting Files */,
@@ -117,6 +160,7 @@
 		31246FC01E00EF7B005448AB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				31246FF31E00EFDA005448AB /* TravelokaApp-Prefix.pch */,
 				31246FC11E00EF7B005448AB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +184,55 @@
 			path = TravelokaAppUITests;
 			sourceTree = "<group>";
 		};
+		31246FF71E00F1CA005448AB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				31246FF41E00F1C5005448AB /* Util.m */,
+				31246FF51E00F1C5005448AB /* Util.h */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		319D5A9A1E00F75E00E8704F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				31246FC61E00EF7B005448AB /* ViewController.h */,
+				31246FC71E00EF7B005448AB /* ViewController.m */,
+				31CC0F2C1E1185B1005CE999 /* CalendarViewController.h */,
+				31CC0F2D1E1185B1005CE999 /* CalendarViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		319D5A9B1E00F79F00E8704F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				319D5A9C1E00F81A00E8704F /* MainView.h */,
+				319D5A9D1E00F81A00E8704F /* MainView.m */,
+				319D5A9F1E01062300E8704F /* MenuView.h */,
+				319D5AA01E01062300E8704F /* MenuView.m */,
+				319D5AA21E012CD600E8704F /* ContentView.h */,
+				319D5AA31E012CD600E8704F /* ContentView.m */,
+				312BA9581E03D1A400BB08BD /* CalendarView.h */,
+				312BA9591E03D1A400BB08BD /* CalendarView.m */,
+				310CA3681E07C4CB00F25F8C /* CustomCollectionViewLayout.h */,
+				310CA3691E07C4CB00F25F8C /* CustomCollectionViewLayout.m */,
+				31D363161E0A41A1001ECEF6 /* MonthCollectionViewCell.h */,
+				31D363171E0A41A1001ECEF6 /* MonthCollectionViewCell.m */,
+				31D363191E0A4633001ECEF6 /* CalendarCollectionViewCell.h */,
+				31D3631A1E0A4633001ECEF6 /* CalendarCollectionViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5EFB90CB0B319A1EE42982FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C75B8821F7D4BBE35B1D4CC3 /* libPods-TravelokaApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31246FEA1E00EF7B005448AB /* Build configuration list for PBXNativeTarget "TravelokaApp" */;
 			buildPhases = (
+				40C14FA1B07415F69FA9CF76 /* [CP] Check Pods Manifest.lock */,
 				31246FB91E00EF7B005448AB /* Sources */,
 				31246FBA1E00EF7B005448AB /* Frameworks */,
 				31246FBB1E00EF7B005448AB /* Resources */,
+				A95360A3EB83C3423E562DA4 /* [CP] Embed Pods Frameworks */,
+				9DD7E00E0B5C9FE27D970F13 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,7 +344,6 @@
 			files = (
 				31246FD01E00EF7B005448AB /* LaunchScreen.storyboard in Resources */,
 				31246FCD1E00EF7B005448AB /* Assets.xcassets in Resources */,
-				31246FCB1E00EF7B005448AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +363,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40C14FA1B07415F69FA9CF76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DD7E00E0B5C9FE27D970F13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravelokaApp/Pods-TravelokaApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A95360A3EB83C3423E562DA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravelokaApp/Pods-TravelokaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31246FB91E00EF7B005448AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				319D5AA41E012CD600E8704F /* ContentView.m in Sources */,
+				319D5A9E1E00F81A00E8704F /* MainView.m in Sources */,
 				31246FC81E00EF7B005448AB /* ViewController.m in Sources */,
 				31246FC51E00EF7B005448AB /* AppDelegate.m in Sources */,
+				31CC0F2E1E1185B1005CE999 /* CalendarViewController.m in Sources */,
 				31246FC21E00EF7B005448AB /* main.m in Sources */,
+				31246FF61E00F1C5005448AB /* Util.m in Sources */,
+				31D363181E0A41A1001ECEF6 /* MonthCollectionViewCell.m in Sources */,
+				31D3631B1E0A4633001ECEF6 /* CalendarCollectionViewCell.m in Sources */,
+				310CA36A1E07C4CB00F25F8C /* CustomCollectionViewLayout.m in Sources */,
+				312BA95A1E03D1A400BB08BD /* CalendarView.m in Sources */,
+				319D5AA11E01062300E8704F /* MenuView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +435,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31087CFC1E0296F900EF0858 /* ViewController.m in Sources */,
 				31246FDB1E00EF7B005448AB /* TravelokaAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,14 +464,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		31246FC91E00EF7B005448AB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				31246FCA1E00EF7B005448AB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		31246FCE1E00EF7B005448AB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -420,10 +565,14 @@
 		};
 		31246FEB1E00EF7B005448AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F320D9C03399A2515B900913 /* Pods-TravelokaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/TravelokaApp/TravelokaApp-Prefix.pch";
 				INFOPLIST_FILE = TravelokaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tansy.TravelokaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -431,10 +580,14 @@
 		};
 		31246FEC1E00EF7B005448AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E94F5654B764850C525DF7 /* Pods-TravelokaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/TravelokaApp/TravelokaApp-Prefix.pch";
 				INFOPLIST_FILE = TravelokaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tansy.TravelokaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -505,6 +658,7 @@
 				31246FEC1E00EF7B005448AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31246FED1E00EF7B005448AB /* Build configuration list for PBXNativeTarget "TravelokaAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +667,7 @@
 				31246FEF1E00EF7B005448AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31246FF01E00EF7B005448AB /* Build configuration list for PBXNativeTarget "TravelokaAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +676,7 @@
 				31246FF21E00EF7B005448AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
